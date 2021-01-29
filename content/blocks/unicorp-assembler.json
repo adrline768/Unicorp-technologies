@@ -1,6 +1,6 @@
 {
 "name": "Excavation drones fabricator",
-"description": "The gates to the Great World of Uni-corp! And probably financial crysis.",
+"description": "The gates to the Great World of Uni-corp! Produces all tiers of drones. And probably financial crysis.",
 "health": 400,
 "type":"unitFactory",
 "size": 3,
@@ -14,6 +14,14 @@
        metaglass/20
     ],
     "time": 650 
+  },
+  {"unit": "backwater",
+   "requirements": [
+    plastanium/40,
+    thorium/50,
+    graphite/60,
+    silicon/70 ]
+   "time": 1080
   }
 ],
 "itemCapacity": 60,
@@ -23,5 +31,5 @@
   silicon/70,
 ],
 "category": "units",
-"research": "ground-factory"
+"research": "mono"
 }
