@@ -1,0 +1,29 @@
+{"type": "Reconstructor",
+"name": "Unicorp-reconstructor",
+"description": "Upgrades inputted unicorp drones to the second tier. Promotions for everyone.",
+"size": "5",
+"health": 2000,
+"consumes": {
+  "power": 8
+  "items": {
+    "items": [
+    silicon/900,
+    graphite/1000,
+    phase-fabric/200,
+    thorium/800
+    ]
+  }
+},
+"constructTime": 2000,
+"requirements": [
+  copper/2000,
+  lead/1600,
+  silicon/1000,
+  surge-alloy/200,
+  thorium/1000
+],
+"upgrades": [["backwater", "scarab"]
+             ["embarassment", "enforcer"]],
+"category": "units",
+"research": "unicorp-assembler"
+}

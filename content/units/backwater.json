@@ -8,11 +8,14 @@
  "health": 500,
  "engineSize": 4,
  "engineOffset": 7.5,
+ "rotateSpeed": 2,
  "range": 30,
  "isCounted": false,
  "mineTier": 4,
  "mineSpeed": 5.5,
+ "armor": 4,
  "itemCapacity": 55,
+ "lowAltitude": true,
  "weapons":
  [
  {"name": "backwater-shotgun",
@@ -43,4 +46,12 @@ shootEffect: sparkShoot,
     		smokeEffect: sparkShoot,
     		}
                 }],
- "research": "embarassment"}
+ "research":{
+"parent": "unicorp-assembler",
+"requirements": [
+    plastanium/2000,
+    thorium/2500,
+    graphite/3000,
+    silicon/3500
+]}
+}

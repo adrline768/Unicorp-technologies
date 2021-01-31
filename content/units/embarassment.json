@@ -13,4 +13,11 @@
  "mineTier": 3,
  "mineSpeed": 4,
  "itemCapacity": 40,
- "research": "unicorp-assembler"}
+ "research":{
+"parent": "unicorp-assembler",
+"requirements": [
+       silicon/1500,
+       titanium/1500,
+       metaglass/1000
+]}
+}
